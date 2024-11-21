@@ -1,5 +1,5 @@
-// To get starts with or ends with 
-//it means starts with s 
+-To get starts with or ends with 
+-it means starts with s 
 ```sql
 SELECT * 
 FROM student 
