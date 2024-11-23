@@ -110,3 +110,10 @@ SELECT * FROM Orders
 WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
 
 
+-- Self join
+Select A.customer_name, B.customer_name 
+from customers A, customers B 
+where A.customer_name<>B.customer_name 
+and A.city=B.city;
+
+
